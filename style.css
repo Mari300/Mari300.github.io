@@ -11,14 +11,60 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fifteen-child
  */
+
+ @import {
+ 	url("https://fonts.googleapis.com/css?family=Indie+Flower") ;
+ }
+
  body {
- 	background-color : black ;
- 	color : black;	 
+ 	background-image : url("Space.jpg") ;
+ 	padding-top: 70px ; 
+ }
+ a {
+ 	color : white ;
+ }
+ p {
+ 	color : white ;
+	font-size : 15px ;
 }
- .navbar-header {
- 	background-color : white ;
- }
- .container {
- 	background-image : url("Seamless Floral.jpg");
- }
+img {
+	border : 10px solid white ;
+	border-radius : 5px ;
+}
+.alignnone .wp-image-53 {
+	border: 5px ;
+}
+.page-title {
+	border : 10px ;
+	color : white ;
+}
+.site-branding {
+	text-align : center ;
+}
+.entry-title {
+	color : white ;
+}
+.widget-title {
+	
+}
+#navbar-collapse {
+	 width: 100%;
+     position: absolute;
+     top: 0;
+}
+.site-navigation-inner.col-sm-12 {
+	 width: 100%;
+     position: absolute;
+     top: 0;
+     padding : 20px ;
+}
+a:-webkit-any-link {
+	color : white ;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family : 'Didact Gothic', sans-serif ;
+}
+
+
+ 
  
