@@ -12,13 +12,14 @@
  Text Domain:  twenty-fifteen-child
  */
 
- @import {
- 	url("https://fonts.googleapis.com/css?family=Indie+Flower") ;
- }
+ @import url('https://fonts.googleapis.com/css?family=Arimo|Didact+Gothic') ;
 
  body {
  	background-image : url("Space.jpg") ;
  	padding-top: 70px ; 
+ 	font-family :'Didact Gothic', sans-serif;
+	font-family: 'Arimo', sans-serif;
+;
  }
  a {
  	color : white ;
@@ -52,7 +53,7 @@ img {
      position: absolute;
      top: 0;
 }
-.site-navigation-inner.col-sm-12 {
+.site-navigation-inner.col-sm-12 { 
 	 width: 100%;
      position: absolute;
      top: 0;
@@ -64,7 +65,13 @@ a:-webkit-any-link {
 h1,h2,h3,h4,h5,h6 {
 	font-family : 'Didact Gothic', sans-serif ;
 }
-
+#navbar-collapse {
+  background-color : #1976D2 ;
+  border-color : #1976D2 ;;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color : white ;
+}
 
  
  
