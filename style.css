@@ -72,6 +72,7 @@ h1,h2,h3,h4,h5,h6 {
 #navbar-collapse {
   background-color : #1976D2 ;
   border-color : #1976D2 ;
+  padding : 0px 30px ;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
 	color : white ;
@@ -89,4 +90,13 @@ h1,h2,h3,h4,h5,h6 {
 }
 h3 {
 	color : white ;
+}
+.navbar-default {
+	border-color : #1976D2 ; 
+	background-color : #1976D2 ;
+	padding : 20px 0px ;
+
+}
+ .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+ color : #BBDEFB ; 
 }
