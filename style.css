@@ -44,8 +44,15 @@ img {
 }
 .entry-title {
 	color : white ;
+	font-size : 50px ;
 }
 .widget-title {
+	color : white ;
+	font-size : 40px ;
+}
+.site-title {
+	font-size : 100px ;
+	text-transform : uppercase ;
 	
 }
 #navbar-collapse {
@@ -55,20 +62,18 @@ img {
      border-color : #2196F3 ;
      border-width : 15px ;
      box-shadow :  #2196F3 ;
+     padding : 20px ;
 }
 .site-navigation-inner.col-sm-12 { 
 	border-color : #2196F3 ;
 	border-width : 15px ;
-	 width: 100%;
-     top: 0;
-     padding : 20px ;
+	width: 100%;
+    top: 0;
+    padding : 20px 0px ;
 }
 a:-webkit-any-link {
 	color : white ;
-}
-h1,h2,h3,h4,h5,h6 {
-	font-family : 'Didact Gothic', sans-serif ;
-}
+} 
 #navbar-collapse {
   background-color : #1976D2 ;
   border-color : #1976D2 ;
@@ -85,8 +90,6 @@ h1,h2,h3,h4,h5,h6 {
 	border-color : #2196F3 ;
 	border-width : 15px ;
 }
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-	border-color : #2196F3 
 }
 h3 {
 	color : white ;
@@ -94,9 +97,30 @@ h3 {
 .navbar-default {
 	border-color : #1976D2 ; 
 	background-color : #1976D2 ;
-	padding : 20px 0px ;
-
 }
  .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
  color : #BBDEFB ; 
+}
+.site-description.lead {
+	font-size : 50px ;
+}
+p.desc {
+	font-size : 20px ;
+}
+.btn-default {
+	color : white ;
+	background-color : #1976D2 ;
+	border-color : #1976D2 ;
+}
+.btn-default:hover {
+	color : white ;
+	background-color : #03A9F4 ;
+	border-color : #03A9F4 ;
+
+}
+.nav>li>a:focus, .nav>li>a:hover {
+	background-color : #03A9F4 ;
+}
+.entry-meta {
+	display : none ;
 }
